@@ -4,10 +4,10 @@
     Version: 1.0
 
 -----------------------------------------------------------------------------------
-    
+
     CSS INDEX
     ===================
-	
+
     01. Theme default CSS
 	02. Header CSS
         02.01 Header
@@ -47,12 +47,12 @@ body {
   font-style: normal;
   font-weight: normal;
   visibility: visible;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
   color: #555555;
   position: relative; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
   color: #333333;
   font-weight: 400;
   margin-top: 0; }
@@ -118,7 +118,7 @@ ul {
 img {
   max-width: 100%; }
 
-/*-- 
+/*--
     - Common Classes
 -----------------------------------------*/
 .fix {
@@ -150,7 +150,7 @@ img {
     padding-left: 0;
     margin: 0; }
 
-/*-- 
+/*--
     - Input Placeholder
 -----------------------------------------*/
 input:-moz-placeholder, textarea:-moz-placeholder {
@@ -178,7 +178,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .bg-grey {
   background-color: #f9f9f9 !important; }
 
-/*-- 
+/*--
     - Tab Content & Pane Fix
 ------------------------------------------*/
 .tab-content {
@@ -196,7 +196,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
       opacity: 1;
       overflow: visible; }
 
-/*-- 
+/*--
     - Main Wrapper
 ------------------------------------------*/
 .main-wrapper {
@@ -263,7 +263,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .nicescroll-rails {
   z-index: 999 !important; }
 
-/*-- 
+/*--
     - Full Page
 ------------------------------------------*/
 #fullpage {
@@ -349,7 +349,7 @@ div#fp-nav {
       color: #ffffff;
       font-weight: 600;
       font-size: 12px;
-      font-family: "Poppins", sans-serif;
+      font-family: 'Noto Sans Mono', monospace;
       line-height: 24px;
       text-transform: uppercase;
       background-color: #333333;
@@ -554,7 +554,7 @@ div#fp-nav {
     position: relative; }
     .main-menu > ul > li > a {
       display: block;
-      font-family: "Poppins", sans-serif;
+      font-family: 'Noto Sans Mono', monospace;
       font-size: 14px;
       line-height: 30px;
       font-weight: 500;
@@ -605,7 +605,7 @@ div#fp-nav {
       border-bottom: none; }
     .sub-menu li a {
       display: block;
-      font-family: "Poppins", sans-serif;
+      font-family: 'Noto Sans Mono', monospace;
       font-size: 14px;
       line-height: 20px;
       text-transform: capitalize;
@@ -870,7 +870,7 @@ nav.side-menu > ul > li {
   margin-bottom: 21px; }
   nav.side-menu > ul > li > a {
     display: block;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
     font-size: 14px;
     line-height: 24px;
     font-weight: 500;
@@ -903,7 +903,7 @@ nav.side-menu > ul > li {
     margin-bottom: 10px; }
     .side-sub-menu > li > a {
       display: block;
-      font-family: "Poppins", sans-serif;
+      font-family: 'Noto Sans Mono', monospace;
       font-size: 14px;
       line-height: 24px;
       font-weight: 400;
@@ -938,7 +938,7 @@ nav.side-menu > ul > li {
 .side-header-contact-info {
   margin-bottom: 30px; }
   .side-header-contact-info p {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
     font-size: 13px;
     line-height: 24px;
     letter-spacing: 0.75px;
@@ -971,7 +971,7 @@ nav.side-menu > ul > li {
 
 /*-- Side Header Copyright --*/
 .side-header-copyright p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.75px; }
@@ -1019,7 +1019,7 @@ nav.side-menu > ul > li {
     max-width: 720px;
     font-size: 22px;
     line-height: 34px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
     color: #333333;
     letter-spacing: 1px;
     margin: auto; }
@@ -1269,7 +1269,7 @@ nav.side-menu > ul > li {
     font-size: 14px;
     line-height: 1;
     color: #555555;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
     letter-spacing: 1px;
     margin-bottom: 12px; }
   .single-skill .skill-bar {
@@ -1291,7 +1291,7 @@ nav.side-menu > ul > li {
         font-size: 14px;
         line-height: 1;
         color: #555555;
-        font-family: "Poppins", sans-serif;
+        font-family: 'Noto Sans Mono', monospace;
         letter-spacing: 1px; }
       .single-skill .skill-bar .skill-progress::after {
         content: "";
@@ -1570,7 +1570,7 @@ nav.side-menu > ul > li {
     line-height: 1;
     display: inline-block;
     margin-bottom: 15px;
-    font-family: "Poppins", sans-serif; }
+    font-family: 'Noto Sans Mono', monospace; }
     .portfolio-details-content .category:hover {
       color: #333333; }
   .portfolio-details-content .title {
@@ -1644,14 +1644,14 @@ nav.side-menu > ul > li {
       font-size: 14px;
       color: #555555;
       font-weight: 600;
-      font-family: "Poppins", sans-serif; }
+      font-family: 'Noto Sans Mono', monospace; }
       .portfolio-details-content .project-nav a span {
         display: block;
         font-size: 14px;
         color: #333333;
         text-transform: capitalize;
         font-weight: 400;
-        font-family: "Poppins", sans-serif; }
+        font-family: 'Noto Sans Mono', monospace; }
       .portfolio-details-content .project-nav a.prev-project {
         float: left;
         text-align: left; }
@@ -1717,7 +1717,7 @@ nav.side-menu > ul > li {
       float: left;
       width: 100%; }
       .blog-item .blog-content .read-more a {
-        font-family: "Poppins", sans-serif;
+        font-family: 'Noto Sans Mono', monospace;
         font-size: 14px;
         line-height: 24px;
         font-weight: 600;
@@ -1729,7 +1729,7 @@ nav.side-menu > ul > li {
 /*-- Load More Button --*/
 .load-blog-btn {
   display: inline-block;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
   font-size: 16px;
   line-height: 1;
   font-weight: 600;
@@ -1777,7 +1777,7 @@ nav.side-menu > ul > li {
         line-height: 24px;
         color: #555555;
         margin-right: 35px;
-        font-family: "Poppins", sans-serif; }
+        font-family: 'Noto Sans Mono', monospace; }
         .blog-item-details .blog-content .blog-meta li a {
           color: #555555;
           display: block;
@@ -1838,7 +1838,7 @@ nav.side-menu > ul > li {
       font-size: 16px;
       font-weight: 600;
       line-height: 24px;
-      font-family: "Poppins", sans-serif;
+      font-family: 'Noto Sans Mono', monospace;
       margin: 3px 0;
       color: #555555; }
       .blog-item-details .blog-footer .post-nav i {
@@ -1916,7 +1916,7 @@ nav.side-menu > ul > li {
     font-size: 14px;
     line-height: 18px;
     color: #555555;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
     float: left;
     padding-bottom: 10px;
     padding-right: 30px; }
@@ -2049,7 +2049,7 @@ nav.side-menu > ul > li {
     color: #333333;
     font-size: 13px;
     line-height: 1;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
     margin-bottom: 15px;
     text-transform: capitalize; }
   .single-comment .reply {
@@ -2066,7 +2066,7 @@ nav.side-menu > ul > li {
     margin-top: 10px; }
     .single-comment .reply a {
       font-size: 14px;
-      font-family: "Poppins", sans-serif;
+      font-family: 'Noto Sans Mono', monospace;
       line-height: 18px;
       color: #333333; }
       .single-comment .reply a i {
@@ -2084,7 +2084,7 @@ nav.side-menu > ul > li {
 
 /*-- Comment Form --*/
 .comment-form input {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
   display: block;
   width: 100%;
   border-width: 0 0 2px;
@@ -2115,7 +2115,7 @@ nav.side-menu > ul > li {
       background-color: #333333; }
 
 .comment-form textarea {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
   display: block;
   width: 100%;
   height: 80px;
@@ -2214,7 +2214,7 @@ nav.side-menu > ul > li {
       font-size: 18px; } }
 
 .contact-form input {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
   display: block;
   width: 100%;
   border-width: 0 0 2px;
@@ -2244,7 +2244,7 @@ nav.side-menu > ul > li {
       border-color: #333333; }
 
 .contact-form textarea {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
   display: block;
   width: 100%;
   height: 80px;
@@ -2275,7 +2275,7 @@ nav.side-menu > ul > li {
       font-size: 18px; } }
 
 .contact-info ul li {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 1px;
