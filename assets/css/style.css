@@ -51,6 +51,18 @@ body {
   color: #555555;
   position: relative; }
 
+.listaelem{
+  margin: 15px 0;
+  padding: 0 15px;
+  list-style: disc;
+
+  }
+
+.link-kek{
+  color:blue;
+
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Noto Sans Mono', monospace;
   color: #333333;
@@ -118,6 +130,9 @@ ul {
 img {
   max-width: 100%; }
 
+span.bold {
+  font-weight:
+}
 /*--
     - Common Classes
 -----------------------------------------*/
