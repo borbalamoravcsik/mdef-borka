@@ -90,7 +90,6 @@ $('#fullpage').fullpage({
     scrollOverflow: true,
     navigation: true,
     verticalCentered: false,
-    navigationTooltips: ['My fight', 'About me', 'Term 1', 'Contact'],
     responsiveWidth: 991,
 });
 
