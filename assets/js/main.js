@@ -86,11 +86,11 @@ $('.side-menu').on('click', 'li a, li a .menu-expand', function(e) {
 $('#fullpage').fullpage({
     menu: '.fullpage-menu',
     lockAnchors: false,
-    anchors: ['my-fight', 'about-me', 'term-1', 'contact'],
+    anchors: ['my-fight', 'about-me', 'term-1', 'term-2', 'Designreviews', 'contact'],
     scrollOverflow: true,
     navigation: true,
     verticalCentered: false,
-    navigationTooltips: ['My fight', 'About me', 'Term 1', 'Contact'],
+    navigationTooltips: ['What?', 'Who?', 'Term 1', 'Term 2', 'Design Reviews', 'Contact'],
     responsiveWidth: 991,
 });
 
@@ -99,8 +99,8 @@ function fpNavPosition(){
     var sideHeaderWidth = $('.side-header').outerWidth();
     var screenSize = windows.width() - sideHeaderWidth;
     var containerSize = $('.container').outerWidth();
-    $('#fp-nav.left').css('left', ((screenSize - containerSize)/4));
-    $('#fp-nav.right').css('right', ((screenSize - containerSize)/4));
+    $('#fp-nav.left').css('left', ((screenSize - containerSize)/6));
+    $('#fp-nav.right').css('right', ((screenSize - containerSize)/6));
 }
 // FullPage Navigation On Mobile
 function fpNavCloseOnClickMobile(){
@@ -130,7 +130,7 @@ $('.portfolio-slider-5').slick({
     pauseOnFocus: false,
     pauseOnHover: false,
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 6,
     prevArrow: '<button type="button" class="slick-prev">prev</button>',
     nextArrow: '<button type="button" class="slick-next">next</button>',
     appendArrows: '.portfolio-slider-5-nav',
@@ -138,7 +138,7 @@ $('.portfolio-slider-5').slick({
         {
             breakpoint: 1199,
             settings: {
-                slidesToShow: 4,
+                slidesToShow: 6,
             }
         },
         {
