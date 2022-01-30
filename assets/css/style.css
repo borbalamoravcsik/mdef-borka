@@ -63,6 +63,18 @@ body {
 
 }
 
+.bg-black{
+  background: black;
+}
+
+a.portfolio-image.szeles {
+    max-height: 170px;
+}
+
+a.portfolio-image.szeles img {
+    max-height: 170px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Noto Sans Mono', monospace;
   color: #333333;
