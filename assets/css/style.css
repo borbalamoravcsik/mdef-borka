@@ -59,6 +59,14 @@ body p {
   margin-bottom: 10px;
   }
 
+  .portfolio-title .block-title {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    }
+
 .listaelem{
   margin: 15px 0;
   padding: 0 15px;
@@ -1401,7 +1409,12 @@ nav.side-menu > ul > li {
 /*----------------------------------------*/
 /*-- Portfolio Item --*/
 .portfolio-item {
-  position: relative; }
+  position: relative;
+  transition: all 0.5s ease 0s;
+}
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
   .portfolio-item .portfolio-image {
     display: block;
     position: relative;
@@ -1413,8 +1426,8 @@ nav.side-menu > ul > li {
       top: 0;
       width: 100%;
       height: 100%;
-      background-color: #ffffff;
-      opacity: 0;
+      background-color: #9d97f4;
+      opacity: 0.7;
       z-index: 2;
       -webkit-transition: all 0.3s ease 0s;
       -o-transition: all 0.3s ease 0s;
@@ -1439,16 +1452,16 @@ nav.side-menu > ul > li {
       letter-spacing: 1px;
       margin-bottom: 5px;
       -webkit-transform: translateY(-15px);
-      -ms-transform: translateY(-15px);
-      transform: translateY(-15px);
-      opacity: 0;
+      -ms-transform: translateY(0px);
+      transform: translateY(0px);
+      opacity: 0.7;
       -webkit-transition: all 0.3s ease 0s;
       -o-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s; }
       .portfolio-item .portfolio-content .title a {
-        color: #333333; }
+        color: #ffffff; }
         .portfolio-item .portfolio-content .title a:hover {
-          color: #333333; }
+          color: #ffffff; }
     .portfolio-item .portfolio-content .category {
       display: block;
       line-height: 1;
@@ -1464,9 +1477,9 @@ nav.side-menu > ul > li {
         line-height: 1;
         letter-spacing: 1px;
         font-size: 14px;
-        color: #555555; }
+        color: #ffffff; }
         .portfolio-item .portfolio-content .category a:hover {
-          color: #333333; }
+          color: #ffffff; }
   .portfolio-item:hover .portfolio-image::before {
     opacity: 0.8; }
   .portfolio-item:hover .portfolio-content .title {
