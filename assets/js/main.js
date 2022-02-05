@@ -86,7 +86,7 @@ $('.side-menu').on('click', 'li a, li a .menu-expand', function(e) {
 $('#fullpage').fullpage({
     menu: '.fullpage-menu',
     lockAnchors: false,
-    anchors: ['my-fight', 'about-me', 'term-1', 'term-2', 'Fab-Academy', 'Designreviews', 'contact'],
+    anchors: ['what', 'who', 'term-1', 'term-2', 'Fab-Academy', 'Designreviews', 'contact'],
     scrollOverflow: true,
     navigation: true,
     verticalCentered: false,
