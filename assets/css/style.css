@@ -55,6 +55,10 @@ body div {
   font-style: normal;
 }
 
+body p {
+  margin-bottom: 10px;
+  }
+
 .listaelem{
   margin: 15px 0;
   padding: 0 15px;
